@@ -3,28 +3,28 @@ import { Badge } from "@/components/ui/badge";
 
 const About = () => {
   const skills = [
-    "React", "TypeScript", "Node.js", "Python", "JavaScript", "Next.js",
-    "Tailwind CSS", "GraphQL", "MongoDB", "PostgreSQL", "AWS", "Docker"
+    "C++", "IPSec", "Networking", "Embedded C", "Docker", "5G Core",
+    "Cloud Native", "Kubernetes", "Packet Core", "SFT", "IKEv1", "IKEv2"
   ];
 
   const experiences = [
     {
-      title: "Senior Full Stack Developer",
-      company: "Your Current Company",
-      period: "2022 - Present",
-      description: "Lead development of scalable web applications using React, Node.js, and cloud technologies."
+      title: "Senior Software Engineer",
+      company: "Wipro Limited",
+      period: "Oct 2023 - Present",
+      description: "IPSec Protocol Adaptation and Active-Active Tunnel Redundancy implementation. Proficient in networking fundamentals and cloud platform migration."
     },
     {
-      title: "Software Developer",
-      company: "Previous Company",
-      period: "2020 - 2022",
-      description: "Developed and maintained multiple client projects using modern web technologies."
+      title: "Project Engineer",
+      company: "Wipro Limited",
+      period: "Apr 2022 - Oct 2023",
+      description: "Implemented robust testing strategies, increased test coverage by 50%, and designed key features like SFT for IPsec testing."
     },
     {
-      title: "Junior Developer",
-      company: "First Company",
-      period: "2019 - 2020",
-      description: "Started my journey in software development, focusing on frontend technologies."
+      title: "Bachelor of Technology",
+      company: "Manipal Institute Of Technology",
+      period: "Jul 2018 - Aug 2022",
+      description: "Electronics And Instrumentation - Gained experience with sensors, embedded systems, automation, and control systems."
     }
   ];
 
@@ -48,11 +48,10 @@ const About = () => {
             <Card className="border-0 shadow-soft">
               <CardContent className="p-8">
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  With over 5 years of experience in software development, I specialize in 
-                  building scalable web applications using modern technologies. I'm passionate 
-                  about clean code, user experience, and continuous learning. When I'm not coding, 
-                  you can find me exploring new technologies, contributing to open source projects, 
-                  or sharing knowledge with the developer community.
+                  Highly motivated engineer with a strong track record of delivering results in networking 
+                  and cloud technologies. Proven team player known for going the extra mile to ensure 
+                  project success. Specialized in IPSec protocols, network migration, and cloud-based 
+                  solutions with expertise in 5G Core technologies and Kubernetes orchestration.
                 </p>
               </CardContent>
             </Card>

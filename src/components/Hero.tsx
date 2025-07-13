@@ -13,17 +13,17 @@ const Hero = () => {
                 Hi, it's me
               </div>
               <h1 className="text-4xl md:text-6xl font-bold text-primary leading-tight">
-                Your Name
+                Nishown Priston
                 <br />
-                <span className="text-accent">Developer</span>
+                <span className="text-accent">Ranger</span>
               </h1>
               <div className="space-y-2">
                 <p className="text-xl text-muted-foreground">
-                  FOUNDER OF YOUR COMPANY
+                  SENIOR SOFTWARE ENGINEER AT WIPRO LIMITED
                 </p>
                 <p className="text-muted-foreground max-w-2xl">
-                  Software Developer from Your Location with rock-solid experience
-                  in building complex applications with modern technologies.
+                  Software Engineer from Moodbidri, Karnataka with rock-solid experience
+                  in networking, IPSec protocols, and cloud-based solutions.
                 </p>
               </div>
             </div>
@@ -61,7 +61,7 @@ const Hero = () => {
               <div className="w-80 h-80 bg-gradient-to-br from-accent/20 to-primary/20 rounded-full p-1">
                 <div className="w-full h-full bg-muted rounded-full flex items-center justify-center overflow-hidden">
                   <div className="w-72 h-72 bg-gradient-to-br from-accent to-primary rounded-full flex items-center justify-center text-white text-6xl font-bold">
-                    YN
+                    NR
                   </div>
                 </div>
               </div>
