@@ -33,7 +33,7 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             {/* Brand Section */}
             <div className="space-y-4">
-              <h3 className="text-2xl font-bold">Your Name</h3>
+              <h3 className="text-2xl font-bold">Nishown Ranger</h3>
               <p className="text-primary-foreground/80">
                 Passionate developer creating beautiful and functional solutions.
               </p>
@@ -72,9 +72,9 @@ const Footer = () => {
             <div className="space-y-4">
               <h4 className="text-lg font-semibold">Get In Touch</h4>
               <div className="space-y-2 text-primary-foreground/80">
-                <p>your.email@example.com</p>
-                <p>+1 (555) 123-4567</p>
-                <p>Your City, Country</p>
+                <p>nishown2000@gmail.com</p>
+                <p>+(91) 9110240061</p>
+                <p>Moodbidri, India</p>
               </div>
             </div>
           </div>
@@ -83,7 +83,7 @@ const Footer = () => {
           <div className="border-t border-primary-foreground/20 pt-8">
             <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
               <p className="text-primary-foreground/80 text-sm">
-                © 2024 Your Name. All rights reserved.
+                © 2025 Nishown Ranger. All rights reserved.
               </p>
               <div className="flex items-center space-x-1 text-sm text-primary-foreground/80">
                 <span>Made with</span>

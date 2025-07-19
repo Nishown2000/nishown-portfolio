@@ -25,7 +25,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="text-2xl font-bold text-primary">
-            Portfolio
+            NPR
           </div>
 
           {/* Desktop Navigation */}
@@ -39,7 +39,18 @@ const Header = () => {
                 {item.name}
               </button>
             ))}
-            <Button variant="accent" size="sm">
+            <Button 
+              variant="accent" 
+              size="sm"
+              onClick={() => {
+              const link = document.createElement('a');
+              link.href = 'contents/NishownPristonRanger.pdf';
+              link.download = 'NishownPristonRangerResume.pdf';
+              document.body.appendChild(link);
+              link.click();
+              document.body.removeChild(link);
+              }}
+            >
               Resume
             </Button>
           </nav>
