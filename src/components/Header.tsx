@@ -44,7 +44,7 @@ const Header = () => {
               size="sm"
               onClick={() => {
               const link = document.createElement('a');
-              link.href = 'contents/NishownPristonRanger.pdf';
+              link.href = 'NishownPristonRanger.pdf';
               link.download = 'NishownPristonRangerResume.pdf';
               document.body.appendChild(link);
               link.click();
